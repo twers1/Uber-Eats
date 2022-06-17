@@ -97,3 +97,23 @@ p.cent {
 p.time {
     font-size: 13px;
 }
+
+.footer {
+    background-color: #262626;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+    height: 552px;
+    width: 1124px;
+}
+
+.logo__footer {
+    position: absolute;
+    top: 1524px;
+    border-bottom: 1px solid #757575;
+    color: #626262;
+    padding-bottom: 56px;
+    width: 956px;
+}
