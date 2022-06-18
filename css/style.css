@@ -125,18 +125,51 @@ select {
     color: white;
 }
 
-.language {
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.language__info {
     box-sizing: border-box;
     position: absolute;
-    width: 227px;
+    margin-left: 120px;
+    margin-bottom: 40px;
     height: 40px;
     left: 81px;
     top: 1617px;
     background: #3b3b3b;
-    border-radius: 2px;
 }
 
 .world {
     height: 15px;
     width: 15px;
+}
+
+.info__text {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.socials {
+    width: 92px;
+    height: 60px;
+    left: 81px;
+    top: 1690px;
+}
+
+.about__footer {
+    position: absolute;
+    left: 405px;
+    top: 1702px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
 }
