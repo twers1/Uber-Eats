@@ -173,3 +173,31 @@ select {
     align-items: flex-end;
     color: #FFFFFF;
 }
+
+hr {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    border-top: 1px solid var(--color-darkergray);
+}
+
+.footer-links-column {
+    flex-basis: 33.3333%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footer-link {
+    padding: 8px 0;
+    color: var(--color-light);
+    font-size: 0.8125rem;
+}
+
+.footer-legal {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
