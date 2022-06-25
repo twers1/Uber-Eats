@@ -75,3 +75,14 @@ button:active {
     display: flex;
     align-items: flex-end;
 }
+
+.navbar {
+    width: 1124px;
+    height: 80px;
+    top: 6px;
+    left: 250px;
+}
+
+.nav-link {
+    color: #327430;
+}
