@@ -86,3 +86,57 @@ button:active {
 .nav-link {
     color: #327430;
 }
+
+.tabs-labels {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 40px;
+    row-gap: 15px;
+}
+
+.tabs>input[type='radio'] {
+    display: none;
+}
+
+.tabs-labels>label {
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    transition: 0.15s ease-out;
+    cursor: pointer;
+}
+
+.tabs-labels>label:hover {
+    color: var(--color-darkgray);
+}
+
+#tab-btn-1:checked~.tabs-labels #tab-btn-label-1,
+#tab-btn-2:checked~.tabs-labels #tab-btn-label-2,
+#tab-btn-3:checked~.tabs-labels #tab-btn-label-3,
+#tab-btn-4:checked~.tabs-labels #tab-btn-label-4,
+#tab-btn-5:checked~.tabs-labels #tab-btn-label-5,
+#tab-btn-6:checked~.tabs-labels #tab-btn-label-6 {
+    color: #4ca149;
+}
+
+.tabs-contents {
+    overflow: hidden;
+}
+
+.tab-content {
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#tab-btn-1:checked~.tabs-contents #menu-1,
+#tab-btn-2:checked~.tabs-contents #menu-2,
+#tab-btn-3:checked~.tabs-contents #menu-3,
+#tab-btn-4:checked~.tabs-contents #menu-4,
+#tab-btn-5:checked~.tabs-contents #menu-5,
+#tab-btn-6:checked~.tabs-contents #menu-6 {
+    display: block;
+    animation: trans-from-right 0.4s ease-out;
+}
