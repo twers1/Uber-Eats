@@ -140,3 +140,35 @@ button:active {
     display: block;
     animation: trans-from-right 0.4s ease-out;
 }
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.dish__name {
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+}
+
+.dish__description {
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+}
+
+.dish__cent {
+    font-size: 15px;
+    line-height: 21px;
+    position: absolute;
+}
+
+.fish {
+    position: absolute;
+    left: 63.83%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
