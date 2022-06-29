@@ -147,6 +147,13 @@ button:active {
     grid-auto-rows: minmax(100px, auto);
 }
 
+.dish-fish {
+    position: absolute;
+    width: 470px;
+    height: 160px;
+    padding-bottom: 500px;
+}
+
 .dish__name {
     font-size: 16px;
     line-height: 24px;
