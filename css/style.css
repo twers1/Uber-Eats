@@ -89,13 +89,24 @@ h5 {
     grid-auto-rows: minmax(100px, auto);
 }
 
+figcaption {
+    text-decoration: none;
+    pointer-events: none;
+    color: black;
+}
+
 p.cent {
     color: #626262;
     font-size: 14px;
+    text-decoration: none;
+    pointer-events: none;
 }
 
 p.time {
     font-size: 13px;
+    text-decoration: none;
+    pointer-events: none;
+    color: black;
 }
 
 .footer {
