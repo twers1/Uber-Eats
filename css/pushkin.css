@@ -236,7 +236,7 @@ button:active {
     padding: 40px 0;
 }
 
-hr {
+.footer-hr {
     display: block;
     border: 0;
     margin: 0;
